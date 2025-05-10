@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance School Register form</title>
+</head>
+<body>
+    <center>
+     <tr>
+       
+        <td> <h2>Dance School Registration 💃</h2></td>
+     </tr>   
+    
+    </center>
+    <hr>
+    <center>
+    <h2>Registration Form</h2>
+   <form>
+    <table>
+        <tr>
+            <td>Name:</td><td><input type="text" name="Name" placeholder="Enter your Name"> </td>
+        </tr>
+        <tr>
+            <td>email:</td><td><input type="email" name="email" placeholder="Enter your email"> </td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td><td><input type="tel" name="PhoneNumber" placeholder="Enter your PhoneNumber"> </td>
+        </tr>
+        <tr>
+            <td>Age:</td><td><input type="number" name="age" max="100" placeholder="Enter your Age"> </td>
+        </tr>
+        <tr>
+            <td>Dance Style:</td>
+            <td><select name="style" required>
+             <option value="">--Select Style---</option>
+             <option value="classical">Classical</option> 
+             <option value="Kathak">Kathak</option>
+             <option value="Kathakali">Kathakali</option> 
+             <option value="Zumba">Zumba</option>
+             <option value="Salsa">Salsa</option> 
+            </select> </td>
+        </tr>
+        <tr>
+          <td>  <label for="experience">Previous Experience:</label></td>
+      <td><textarea id="experience" name="experience" rows="3" placeholder="Optional"></textarea></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="Gender">Male
+                <input type="radio" namr="Gender">Female
+            </td>
+          </tr>
+          <tr>
+            <td>Level of Experience:</td>
+            <td>
+                <input type="radio" name="Experience">Beginner
+                <input type="radio" namr="Experience">Intermediate
+                <input type="radio" namr="Experience">Advanced
+            </td>
+          </tr>
+          <tr>
+            <tr>
+            <td><h3>Availability</h3>
+            <hr></td>
+            
+            </tr>
+            <tr>
+            <td><h3>Preferred Days</h3></td>
+            </tr>
+            <td>
+                <lable><input type="checkbox" name="days" value="Monday">Monday</lable><br>
+                <lable><input type="checkbox" name="days" value="Tuesday">Tuesday</lable><br>
+                <lable><input type="checkbox" name="days" value="Wednesday">Wednesday</lable><br>
+                <lable><input type="checkbox" name="days" value="Thursday">Thursday</lable><br>
+                <lable><input type="checkbox" name="days" value="Friday">Friday</lable><br>
+                <lable><input type="checkbox" name="days" value="Saturday">Saturday</lable><br>
+                <lable><input type="checkbox" name="days" value="Sunday">Sunday</lable><br>
+            </td>
+          </tr>
+        
+        <tr>
+            <td><a href="./index.html">🏠</a></td>  
+          <td><input type="reset"></td>  
+          <td><input type="submit"></td>  
+          
+           
+        </tr>
+       
+    </table>
+   </form>
+   
+    </center>
+    <hr>
+    <center>
+        <h3>Thank You...</h3>
+    </center>
+    
+    
+</body>
+</html>
