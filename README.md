@@ -1,5 +1,16 @@
- Project Review: Fusion Feet Dance Studio Website
-This project is a well-structured static website built using only HTML. It showcases the Fusion Feet Dance Studio, including a description of dance styles, a video for engagement, a clear class offering list, a comparison table of dance forms, and a registration form link.
+# 💃 Fusion Feet Dance Studio
 
-Despite being created without CSS or JavaScript, the project delivers clear content and structure, making it a strong foundation for future enhancements.
+This is a simple and responsive dance school website built using **only HTML**. It showcases the studio's offerings, including classical and modern dance styles, a YouTube promo video, and a table of class details.
+
+🎯 Features:
+- Clean layout with headings and descriptions  
+- Embedded dance performance video  
+- Table showcasing dance forms and durations  
+- Registration form link to sign up for classes  
+
+🔗 [Register for a Class](register.html)
+
+---
+
+🌟 Created as a beginner-friendly project to demonstrate basic HTML skills.
 
